@@ -3,7 +3,7 @@ import { Button, Popconfirm, Table, List, Typography, Form, Input } from 'antd';
 import type { TableProps } from 'antd';
 import VirtualList from 'rc-virtual-list';
 import { useRef } from 'react';
-import { service } from './http';
+import service  from './http';
 import { decrypt, encrypt } from './utils';
 
 const { Paragraph } = Typography;
